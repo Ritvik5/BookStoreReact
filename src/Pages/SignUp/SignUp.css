@@ -68,6 +68,8 @@
     gap: 1rem;
     padding: 2vh;
     height: 80%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .label{
     display:flex;

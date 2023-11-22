@@ -9,7 +9,8 @@ export default function Router() {
         <BrowserRouter>
             <Routes>
                 <Route exact path={"/"} element= {<SignInForm/>}></Route>
-                <Route exact path={"/signup"} element= {<SignUpForm/>}></Route>
+                <Route path={"/signup-admin"} element={<SignUpForm/>}></Route>
+                <Route path={"/signup"} element= {<SignUpForm/>}></Route>
             </Routes>
         </BrowserRouter>
     </div>
