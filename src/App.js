@@ -1,11 +1,13 @@
 import './App.css';
-import SignUp from './Pages/SignUp/SignUp';
 import Router from './Router/Router';
+import HeaderBar from './Components/header/HeaderBar';
 
 
 function App() {
   return (
-    <Router></Router>
+    // <Router></Router>
+    <HeaderBar></HeaderBar>
+    
   );
 }
 

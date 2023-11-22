@@ -1,0 +1,55 @@
+
+.appbar{
+    background-color: #A03037;
+}
+#typo{
+    flex-wrap: nowrap;
+    margin-left: 10vw;
+}
+#icon{
+    color: white;
+    margin-left:2.5vw;
+}
+#image1{
+    margin-top: 0;
+    width: 5vh;
+    padding: 2vh;
+}
+.booklogo{
+    display: flex;
+    cursor: pointer;
+    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    margin-left:23vw;
+}
+#profile{
+    font-size: 0.8rem;
+    margin-top: 0;
+   
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+}
+#cart{
+    font-size: 0.8rem;
+    padding-left: 3vw;
+    margin-top: 0;
+}
+.data{
+    display: flex;
+}
+#data{
+    position: relative;
+    right: 1vw;
+    bottom: 1vh;
+    font-size: 0.7rem;
+    width: 1vw;
+    height: 2vh;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
